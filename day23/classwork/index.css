@@ -1,0 +1,42 @@
+.body{
+    background-color: rgb(54, 47, 47);
+    text-align: center;
+    
+}
+
+.h-1{
+    color: brown;
+    background-color: antiquewhite;
+
+}
+
+.h-2{
+    color: azure;
+    text-align: end;
+
+}
+
+.h-3{
+    color: bisque;
+    text-align: left;
+}
+
+.p-1{
+    color: brown;
+    background-color: rgb(59, 52, 52);
+    text-align: center;
+}
+
+.p-2{
+    color: rgb(108, 108, 241);
+    background-color: rgb(58, 44, 44);
+    text-align:end;
+}
+
+.p-3{
+    color: aqua;
+    background-color: rgb(46, 77, 77);
+    text-align: left;
+
+
+}
