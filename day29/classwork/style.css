@@ -1,0 +1,61 @@
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+</style> */
+/* ese jobia importit */
+
+
+
+/* an ese 👇 */
+
+
+
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+
+@font-face {
+    font-family: "Ubuntu-font";
+    src: url(./fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+
+
+
+
+@font-face {
+    font-family: "nino-mtavruli";
+    src: url(./fonts/nino_mtavruli/bpg_nino_mtavruli_normal.ttf);
+}
+
+@font-face {
+    font-family: "unicode";
+    src: url(./fonts/unicode/3d_unicode.ttf);
+}
+
+
+
+
+
+body {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style:normal;
+
+}
+
+
+.ubuntu-font {
+    font-family: "ubuntu", sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+

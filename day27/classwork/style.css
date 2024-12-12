@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(178, 132, 132);
+}
+
+
+#idd {
+    background-color:#2b2b2b ;
+   
+}
+
+
+
+.text{
+    font-size: 24px;
+    color: hsl(0, 62%, 43%);
+    border:10px solid #1b1b2b
+}
+
+
+
+/* pirveli yvelaze mnishvnelovani */
+
+.my-font{
+    font-family: sans-serif,"courier New",Verdana;
+    font-style: italic;
+    font-style: normal;
+    font-weight: 100;
+    font-weight: bold;
+
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: unset;
+
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* .my-font{
+    font-family: sans-serif,"courier New",Verdana;
+    font-style: italic;
+    font-style: normal;
+    font-weight: 100;
+    font-weight: bold;
+}
+ */
+
+
+
+
+
+
+
+
+/* <p class="text" id="idd">hello</p> */
+
+
+
+/* body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+#idd {
+    background-color:#2b2b2b ;
+   
+}
+
+
+
+.text{
+    font-size: 24px;
+    color: hsl(0, 62%, 43%);
+}
+
+
+ */
+
+
+
+
+
+
+
+/* .idd{
+    background-color:#2b2b2b ;
+} */
+
+
+
