@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.text-container{
+    text-align: center;
+    color: rgb(34, 32, 75);
+    background-color: rgba(79, 102, 218, 0.4);
+    font-family: "DM Serif Text";
+}
+
+
+
+
+body{
+    background-image: url(./images/backk.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.p{
+    text-align: center;
+    color: rgb(40, 23, 3);
+    background-color: rgba(29, 58, 119, 0.5) ;
+    font-family: "DM Serif Text";
+}
+
+
+.p2{
+    
+    color: rgb(40, 23, 3);
+    text-align: center;
+    background-color: rgba(12, 41, 103, 0.5) ;
+    font-family: "DM Serif Text";
+
+}
+
+
+
+

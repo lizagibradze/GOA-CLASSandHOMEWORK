@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-image: url(./images/lionback.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "DM Serif Text";
+
+}
+
+
+.text-container{
+    text-align: center;
+    color: rgb(48, 28, 3);
+    background-color: rgb(245, 232, 220);
+}
+
+
+
+
+
+.p{
+    text-align: center;
+    color: rgb(40, 23, 3);
+    background-color: rgb(245, 232, 220, 0.50) ;
+}
+
+
