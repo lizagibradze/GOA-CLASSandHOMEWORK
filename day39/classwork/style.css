@@ -1,0 +1,54 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-position: unset;
+    list-style-image: url(./assets/star_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+    
+}
+
+
+
+#home:visited{
+    color: burlywood;
+
+}
+
+#contact:active{
+    color: chocolate;
+}
+
+#about:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.title-1{
+    color: rgb(0, 255, 255);
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.title-1:hover{
+    color: rgb(0, 255, 255);
+
+}
+
+
+

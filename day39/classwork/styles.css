@@ -1,0 +1,48 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./assets/he.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+p{
+    text-align: center;
+    color: rgb(60, 35, 4);
+    background-color: rgb(250, 235, 215, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+ul{
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-position: unset;
+    list-style-image: url(./assets/star_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+    
+}
+
+
+
+
+
