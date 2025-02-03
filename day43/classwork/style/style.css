@@ -1,0 +1,82 @@
+
+p{
+    border: 2px solid black;
+
+}
+
+a{
+    border: 2px solid black;
+}
+
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(179, 120, 243)); height: 100vh;
+    display: flex;
+    /* start , center, end - horizontaluri <>*/
+
+    justify-content: center;
+
+    /* vertical- start, center, end  */
+
+    align-items: center;
+
+
+
+
+
+    /* start, end, space-between, center
+    
+    space-around
+    */
+
+    justify-content: space-between;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: start;
+    border: 2px solid red;
+
+}
+
+
+/* .container p:first-child{
+    margin-right: 10px;
+}
+
+ */
+
+
+ /* .container p:last-child{
+    margin-right: 10px;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

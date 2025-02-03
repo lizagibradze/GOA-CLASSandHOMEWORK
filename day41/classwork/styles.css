@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+
+    background-image: url(./images/turt.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+
+p{
+    color: bisque;
+}
+
+#link:link{
+    color: rgb(255, 0, 0);
+
+}
+
+
+#visited:visited{
+    color: black;
+}
+
+#active:active{
+    color: coral;
+}
+
+#hover:hover{
+    color: darkgreen;
+}
+
+

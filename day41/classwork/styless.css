@@ -1,0 +1,54 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: cursive;
+    padding: 10px;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+
+
+th{
+    text-align: start;
+}
+
+tr:nth-child(even){
+    background-color: rgb(12, 22, 89);
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(33, 78, 110);
+    color: white;
+}
+
+
+
+tr:nth-child(1n){
+    border-bottom:  1px solid black;
+}
+
+
+tr:first-child{
+    background-color: rgb(102, 194, 237);
+    color: black;
+}
+
+

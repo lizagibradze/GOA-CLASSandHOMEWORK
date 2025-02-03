@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    font-family: cursive;
+    padding: 10px;
+
+}
+
+#link:link{
+    color: black;
+
+}
+
+
+#visited:visited{
+    color: rgb(20, 217, 217);
+    text-decoration: underline;
+}
+
+#active:active{
+    color: brown;
+    text-decoration: underline;
+}
+
+
+#hover:hover{
+    color: green;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+    
+    
+}
+
+
+
+
+
+
+th{
+    text-align: start;
+}
+
+/* tr{
+    background-color: aquamarine;
+} */
+
+
+
+
+
+/* tr:first-child{
+    background-color: rgb(35, 138, 66);
+    color: white;
+}
+
+
+tr:last-child{
+    background-color: rgb(35, 138, 66);
+    color: white;
+}
+
+
+ */
+
+
+/* 1n - yvela 2n yoveli ori.., odd- kenti ricxvebi, even - luwi  */
+
+tr:nth-child(even){
+    background-color: rgb(18, 160, 18);
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(138, 228, 138);
+    color: white;
+}
+
+
+
+tr:nth-child(1n){
+    border-bottom:  1px solid black;
+}
+
+
+tr:first-child{
+    background-color: rgb(102, 194, 237);
+    color: black;
+}
+
+
+
+
+tr:not(:first-child):hover{
+    background-color: rgb(11, 84, 11);
+    cursor: pointer;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    border: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    outline: none;
+    padding: 10px 15px;
+    color: 1b1b1b;
+    background-image: linear-gradient(top, white, rgb(227, 169, 169));
+
+}
+
+
+input[type="text"]:focus{
+    border: 1px solid rgb(55, 80, 243);
+    color: rgb(55, 80, 243);
+    background-image: linear-gradient(top, white, rgb(21, 38, 84));
+    box-shadow: 0 0 0 2px rgb(11, 23, 56);
+
+
+
+}
+
+
+
+
+
+
+
+
