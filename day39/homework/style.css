@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+body{
+    background-image: url(./images/deer.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+l{
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-position: unset;
+    list-style-image: url(./assets/star_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+    
+}
+
+
+p{
+    color: rgb(255, 226, 190);
+    background-color: rgb(86, 47, 0, 0.5);
+}
+
+
+a{
+    text-decoration: none;
+    color: #00919e;
+}
+
+
+
+.highlight{
+    color: rgb(52, 137, 255);
+}
+
+
+
+
+
+
+
+
+
