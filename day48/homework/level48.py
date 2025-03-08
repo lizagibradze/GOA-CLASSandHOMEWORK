@@ -4,19 +4,39 @@
 # 1
 
 
+def simple_multiplication(number) :
+    if number % 2 == 0:
+        return number * 8 
+    else:
+        return number * 9
+
 
 
 
 
 # 2
 
+def fake_bin(x):
 
+    r = []
+    for c in x:
+        if int(c) < 5:
+            r.append("0")
+        else:
+            r.append("1")
+    return "".join(r)
 
 
 
 
 # 3
 
+def invert(lst):
+    result = list()
+    for num in lst:
+        result.append(-num)
+    return result
+    
 
 
 
@@ -48,7 +68,7 @@ def rps(p1, p2):
     elif p1 == p2:
        return "Draw!"
     
- ###
+#  
 
 
 
@@ -66,8 +86,11 @@ def greet(name, owner):
 
 
 # 7
-
-
+def monkey_count(n):
+    list = []
+    for i in range(1,n+1):
+        list.append(i)
+    return list
 
 
 
@@ -91,12 +114,11 @@ def human_years_cat_years_dog_years(human_years):
 
 # 9
 
-
-
-
-
-
-# 10
+def is_isogram(string):
+    s = set(string.lower())
+    if len(s) == len(string):
+        return True
+    return False
 
 
 

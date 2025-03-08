@@ -1,0 +1,154 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.font-primary {
+  font-family: "Montserrat", sans-serif;
+}
+.font-secondary {
+  font-family: "Fraunces", serif;
+}
+
+
+.font-medium {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+
+.text-green-500 {
+  color: hsl(158, 36%, 37%);
+}
+.text-green-700 {
+  color: hsl(158, 42%, 18%);
+}
+
+.text-black {
+  color: hsl(212, 21%, 14%);
+}
+.text-gray {
+  color: hsl(228, 12%, 48%);
+}
+.text-cream {
+  color: hsl(30, 38%, 92%);
+}
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+
+.text-primary {
+  font-size: 40px;
+}
+
+
+.bg-green-500 {
+  background: hsl(158, 36%, 37%);
+}
+.bg-green-700 {
+  background: hsl(158, 42%, 18%);
+}
+
+.bg-black {
+  background: hsl(212, 21%, 14%);
+}
+.bg-gray {
+  background: hsl(228, 12%, 48%);
+}
+.bg-cream {
+  background: hsl(30, 38%, 92%);
+}
+.bg-white {
+  background: hsl(0, 0%, 100%);
+}
+
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+.gap-20 {
+    gap: 20px;
+  }
+
+.gap-10 {
+  gap: 10px;
+}
+
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-full{
+    height: 100%;
+}
+
+.h-img-primary{
+    height: 580px;
+}
+
+.max-w-300 {
+  max-width: 300px;
+}
+.max-w-250 {
+  max-width: 251px;
+}
+
+
+.rounded-20 {
+    border-radius: 20px;
+  }
+  .rounded-10 {
+    border-radius: 10px;
+  }
+  
+
+  .p-40 {
+    padding: 40px;
+  }
+  .p-20 {
+    padding: 20px;
+  }
+
+  .tracking-primary {
+    letter-spacing: 10px;
+  }
+
+  .leading-primary {
+    line-height: 25px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+ 
+  .text-line-though {
+    text-decoration: line-through;
+  }
+ 
+  .cursor-pointer{
+      cursor: pointer;
+  }
+
+  .bg-hover-primary:hover{
+      background: hsl(158, 42%, 18%);
+  }
