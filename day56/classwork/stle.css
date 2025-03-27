@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    /* grid-template-columns: 10% 20% 30% ; */
+    
+
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    height: 100vh;
+}
+
+
+
+
+.box {
+    background-color: tomato;
+    background: url(./Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 3
+
+
+}
+
+.gg{
+    background-image: ;
+}
+
+
+h1{
+    letter-spacing: 50px;
+}
+
+
+
+
