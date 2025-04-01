@@ -74,18 +74,18 @@ def no_boring_zeros(n):
     
 
 
-    def solve(s):
-    uppercase = 0
-    lowercase = 0
-    for letter in s:
-        if letter.isupper():
-            uppercase += 1
-        else:
-            lowercase += 1
+    # def solve(s):
+    # uppercase = 0
+    # lowercase = 0
+    # for letter in s:
+    #     if letter.isupper():
+    #         uppercase += 1
+    #     else:
+    #         lowercase += 1
             
-    if lowercase == uppercase:
-        return s.lower()
-    if lowercase > uppercase:
-        return s.lower()
-    else:
-        return s.upper
+    # if lowercase == uppercase:
+    #     return s.lower()
+    # if lowercase > uppercase:
+    #     return s.lower()
+    # else:
+    #     return s.upper
