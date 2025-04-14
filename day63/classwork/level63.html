@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <style>
+        *{
+          margin:0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body{
+          background:#E3CC9E;
+        }
+        .circle {
+          width: 400px;
+          height: 120px;
+          background: #6C3232;
+          border-radius: 100%;
+          transform: rotateY(70deg) translateY(-350px);
+        }
+        .rotate{
+          transform: rotateX(80deg);
+        }
+        .box-2{
+          transform: rotateX(70deg);
+        }
+        .box-2-color{
+          width: 300px;
+          transform: rotateY(0deg) translate(50px,175px);
+          background: #FFFFFF
+        }
+        .cicle-container{
+           transform: translateY(-120px);
+        }
+      
+        .box-3-color{
+           transform: rotateY(0deg) translate(50px, 0px);
+           background: #995757;
+        }
+        .square{
+          width: 300px;
+          height: 180px;
+          background: #995757;
+          transform: rotateY(0deg) translate(50px, 60px);
+        }
+        .rotate-container{
+              transform: rotateY(0deg) translate(0px, -120px);
+        }
+      </style>
+      <div>
+      <!-- middle square -->
+      <div class="square"></div>
+      
+        <!--   white, dark and bottom circle container to pull all of them <3 -->
+        <div class="rotate-container">
+          <!--  white, dark and bottom circle-->
+          <div class="cicle-container">  
+           <!-- white cicrle -->
+            <div class="rotate box-2">
+              <div class="circle box-2-color"></div>
+            </div>
+           <!-- darck red cicle -->
+            <div class="rotate">
+              <div class="circle"></div>
+            </div>
+            <!-- bottom wine cicrle -->
+            <div class="rotate box-2 box-3">
+              <div class="circle box-2-color box-3-color"></div>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>
+
+
