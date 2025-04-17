@@ -1,0 +1,96 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1b1b1b;
+            font-family: "Roboto", sans-serif;
+            color: antiquewhite;
+        }
+
+        .box {
+            background: #db6a6a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10rem;
+            border-radius: 5px;
+            width: 10rem;
+        }
+
+        .glavni-div {
+            position: relative;
+
+            bottom: 0;
+            border: 5px solid aqua;
+
+            animation: glavni 500ms ease infinite;
+        }
+        .delay-300{
+            animation-delay: 300ms;
+        }
+        .delay-500{
+            animation-delay: 400ms;
+        }
+        @keyframes glavni {
+            0%{
+                top: 0rem;
+                left: 0rem;
+                right: 0rem;
+            }
+            50%{
+                top: -5rem;
+                left: 6rem;
+                right: 1rem;
+                background: #888888;
+                transform: rotate(-45deg);
+                border-radius: 40px;
+            }
+            100%{
+                top: 0rem;
+                left: 0rem;
+                right: 0rem;
+                transform: rotate(-360deg);
+                background: #e89940;
+
+            }
+
+        }
+
+        @media (max-width: 1080px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 580px) {
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="box glavni-div delay-300"></div>
+<div class="box glavni-div"></div>
+<div class="box glavni-div delay-500 "></div>
+</body>
+</html>
