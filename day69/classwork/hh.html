@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      /* reset css */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        /* scroll -ი ლამაზდ რომ ასქროლ დასიქროლოს */
+        scroll-behavior: smooth;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* ან nav ან header ის შვილი!  */
+      nav ul {
+        display: flex;
+        /* add item center to center elements horizontal */
+        align-items: center;
+        gap: 20px;
+      }
+      /* header section */
+      header {
+        /* ამით მოგვყება ყველგან  */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        /* გაცენტვრის ახალი გზა! */
+        z-index: 1;
+
+        display: flex;
+        padding: 20px;
+        justify-content: space-between; /* ორ ან რამდენი ელემტნისც იქნება მაგათ აშორებს ერთმანეთისანგ 
+        და მაგათ შორის ტოვებს დანრჩენილ სივრცეს */
+      }
+      a {
+        text-decoration: none;
+      }
+      /* ან nav ან header ის შვილი!  */
+
+      nav button {
+        background-color: rgb(137, 137, 255);
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+      }
+      /* main section */
+      #home {
+        position: relative;
+        background: url("https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg")
+          no-repeat;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        color: #fff;
+      }
+
+      .home {
+        position: relative;
+        background: url("https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg")
+          no-repeat;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        color: #fff;
+      }
+
+      /* typography */
+      h1 {
+        margin-top: 200px;
+      }
+
+      #home img {
+        position: absolute;
+        width: 30px;
+        top: 40%;
+        animation-name: identifier;
+        animation-duration: 1000ms;
+        animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+        animation-iteration-count: infinite;
+      }
+
+      .home img {
+        position: absolute;
+        width: 30px;
+        top: 40%;
+        animation-name: identifier;
+        animation-duration: 1000ms;
+        animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+        animation-iteration-count: infinite;
+      }
+      @keyframes identifier {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+
+    <header class="container">
+      <a href="">logo</a>
+      <nav>
+        <!-- ul იდან მოვაშორეთ and header ში დავუწერეთ -->
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li>
+            <!-- a ში არაფერი არ გივწერია! -->
+            <a href="#contacts"><button type="button">contacts</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="container">
+        <h1>SOME CONtETN HERE IN GOA</h1>
+        <img
+          src="https://static-00.iconduck.com/assets.00/down-arrow-icon-480x512-4enkcnra.png"
+          alt=""
+        />
+      </section>
+      <section id="services" class="home container">
+        <h1>SOME CONtETN HERE IN GOA</h1>
+        <img
+          src="https://static-00.iconduck.com/assets.00/down-arrow-icon-480x512-4enkcnra.png"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer>
+      <!-- pass -->
+    </footer>
+  </body>
+</html>
