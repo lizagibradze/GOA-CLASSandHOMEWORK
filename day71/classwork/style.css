@@ -1,0 +1,89 @@
+
+
+.grid-container{
+    height: 200px;
+    width: 200px;
+
+}
+
+
+.grid-child img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.grid-child img {
+    height: 100px;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid-container{
+        grid-template-columns:  repeat(1, 1fr);
+    }
+
+}
+
+
+.tun {
+    position: sticky;
+    top: 0;
+}
+
+p{
+    background: rgb(67, 33, 3);
+    padding: 20px;
+    color: rgb(195, 107, 0);
+    border: 10px solid rgb(90, 46, 12);
+    
+
+
+}
+
+
+h4{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+
+h4::before{
+    font-size: 4px;
+    content:"lomi";
+    /* position: absolute; */
+
+}
+
+
+h4::after{
+    font-size: 4px;
+    scale:  .05;
+    position: absolute;
+    /* top: 50px; */
+    right: 0;
+    left: 0;
+    bottom: -200px;
+
+    content:url(https://hips.hearstapps.com/hmg-prod/images/headshot-of-giraffe-sabi-sands-game-reserve-royalty-free-image-1573571198.jpg?crop=1.00xw:0.667xh;0,0.0760xh&resize=980:*);
+
+
+}
+
