@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 31, 91);
+    border-radius: 20px;
+    border: 7px solid rgb(0, 0, 0);
+
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<div class="box" id="box"></div>,  [0]
+<div class="box"></div>,  [1]
+<div class="box"></div>,  [2]
+<div class="box"></div>,  [3]
+<div class="box"></div>,  [4]
+
+
+
+
+
+<script>
+
+const boxId = document.getElementById("box");
+console.log(boxId);
+
+
+const boxClass = document.getElementsByClassName("box");
+console.log(boxClass[0]);
+
+
+const boxAnotherWay1 = document.getElementsByTagName("div");
+
+console.log(boxAnotherWay1);
+
+
+
+
+const boxAnotherWay2 = document.querySelector("#box");
+console.log(boxAnotherWay2);
+
+
+
+const boxAnotherWay3 = document.querySelectorAll("div");
+
+console.log(boxAnotherWay3);
+
+
+
+
+
+// + , - , * , ** , % , /
+// / number
+
+console.log('-----------------------')
+
+console.log("2" + 1) //string ❌
+console.log("2" - 1) //number ❌
+
+// >
+// <
+// <=
+// >=
+// ==
+// ===
+// !=
+
+
+
+console.log("2" == 2) // true
+console.log("2" == 3) // false
+console.log("2" === 2) //false , tipebitac adarebs . igive tu arari monacemta tipi mashin false ari. igive unda iyos.
+
+
+
+// const isTrue = True 
+// if (isTrue){
+//     console.log("ggg ooo")
+
+// } else if (444. 1){
+//     console.log("lomi")
+// } else {
+//     console.log(bababa)
+// }
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
