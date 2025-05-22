@@ -1,0 +1,76 @@
+
+
+/* 
+button{
+    background-color: var(--primary-150);
+    color: white;
+}
+
+
+
+
+
+body{
+    background-color: var(--dark-primary);
+}
+
+
+
+
+:root{
+
+    --primary: #FFFFFF;
+    --primary-50: #dadada;
+    --primary-100: #c9c9c9;
+    --primary-150: #a5a5a5 ;
+    --dark-primary: #2c2c2c;
+    
+
+
+}
+
+
+.dark{
+    
+    --dark-primary: #2c2c2c;
+
+} 
+ */
+
+
+button{
+    background-color: var(--dark-primary);
+    color: rgb(255, 255, 255);
+}
+
+
+body{
+    background-color: var(--dark-primary);
+}
+
+
+
+:root{
+
+    --dark-primary: #787878;
+    
+
+}
+
+.dark{
+    --dark-primary: #2c2c2c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
