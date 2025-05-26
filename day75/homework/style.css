@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    font-size: 100px;
+    padding: 5px 10px;
+    color: brown;
+    background-color: bisque;
+    border: 10px solid black;
+    border-radius: 5px;
+
+}
+
+
+
+/* .box{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 10px;
+    border-color: blueviolet;
+    text-align: center;
+
+} */
+
+
+
+/* .box:hover {
+    transform: scale(2);
+
+} */
+
+
+.box:hover {
+    animation: grow 1s forwards;
+}
+
+
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+.box {
+    animation: shrink 1s forwards;
+}
+
+
+
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
