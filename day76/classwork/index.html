@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const arr = ["davit", "gio", "shio"];
+        // index✅
+        // index_slice❌
+        // destruction
+        let [name1, name2] = arr;
+        console.log(name1);
+        // console.log(arr.lenght); len()
+        // console.log(arr.sort()); sort()
+        // ბოლო ელემენტს უბრალოდ ვერ მივწვდებით
+        console.log(arr.length);
+        const points = new Array(40, 100, 1,false, 5, 25, 10);
+        console.log(points);
+        console.log(points.toString());
+        console.log(points.join(" "));
+        points.pop() // ბოლო ელემენტს
+        points.shift() // წინა ელემენტს
+        points.push("ბოლოში") // append()
+        points.unshift("წინ")// append() წინიდან :))
+        console.log(points);
+        const arr1 = [1,2,3];
+        const arr2 = [4,5,6];
+        const arr3 = [5,6,7];
+        console.log(arr1.concat(arr2,arr3));
+    </script>
+</body>
+
+</html>

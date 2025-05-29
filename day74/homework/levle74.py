@@ -6,9 +6,9 @@ num2 = int(input("შეიყვანე მეორე რიცხვი: "
 
 
 if num1 > num2:
-    print("პირველი უფრო დიდია3")
+    print("პირველი უფრო დიდია")
 else:
     if num1 < num2:
-        print("მეორე mუფრო დიდია")
+        print("მეორე უფრო დიდია")
     else:
         print("ტოლია")
