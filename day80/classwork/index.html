@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-black: var(--black);
+
+        --spacing-base-12: 12px;
+        --spacing-base-20: 20px;
+        --spacing-base-28: 28px;
+        --spacing-base-40: 40px;
+        --spacing-base-72: 72px;
+      }
+      /* 
+        --color-   გამოიყენება border, bg, text, სადაც ფერი ფიგურირებს
+        --spacing- გამოიყენება p,m,w,h,size,gap,
+
+        */
+      .container {
+        @apply max-w-[1440px] mx-auto px-base-72;
+      }
+
+      :root{
+        --black: rgb(0, 0, 0);
+      }
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+      body {
+        font-family: "Inter";
+      }
+    </style>
+  </head>
+  <body>
+    <header class="py-base-28 container flex items-center justify-between text-black">
+      <!-- 
+            *:        -------ნიშნავს ყველა ელემენტი
+            *:[]      -------ნიშნავს ყეველა ელემენს რაც წერია [] -ში
+            *:[span]  -------ნიშნავს ყველა შვილ span ელმენტებს
+            *:[span]: --ნიშნავს ყველა შვილ span ელმენტებს და ვაძლევთ ბრძანებას რა გააკეთონ ამ შვილებმა
+            *:[span]:font-bold --ნიშნავს ყველა შვილ span ელმენნტს და font-bold აძლევს
+    -->
+
+
+      <div class="*:[span]:font-bold flex gap-base-12 items-center">
+        <img src="./imgs/car(3) 1.png" alt="car icon" />
+        <span>Car Rental</span>
+      </div>
+      <ul class="flex gap-base-20 *:[li]:hover:font-bold">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Vehicles</a></li>
+        <li><a href="#">Details</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="flex items-center gap-base-12 *:[img]:size-base-40">
+        <img src="./imgs/Icon+bg.png" alt="call icon">
+        <div class="*:[span]:font-bold">
+            <h2>Need help?</h2>
+            <span>+996 247-1680</span>
+        </div>
+      </div>
+    </header>
+  </body>
+    
+</html>
