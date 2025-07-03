@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex max-w-[1200px] mx-auto h-screen flex items-center justify-center">
+        <div class="flex h-[500px] w-full">
+            <button
+            onclick="handlePreviousSlider()"        
+            class="h-full px-10 py-5 bg-gray-200 rounded-l-xl hover:bg-gray-300">
+                <
+            </button>
+           
+            <img class="w-full object-cover" src="https://www.k12digest.com/wp-content/uploads/2024/03/1-3-550x330.jpg" alt="some of humans">
+            
+            <button
+            onclick="handleNextSlider()"        
+            class="h-full px-10 py-5 bg-gray-200 rounded-r-xl hover:bg-gray-300">
+                >
+            </button>
+        </div>
+
+    </div>
+    <script>
+
+        let imgArray = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnFf6DXcgRxe71BOQm1orHpnKjJloo9c2jg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGw02OwbM1W9UK313RgYEgg10vGM-XtKHmw&s"]
+
+        function handleNextSlider(){
+            const img = document.querySelector("img")
+            img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnFf6DXcgRxe71BOQm1orHpnKjJloo9c2jg&s"
+            console.log("next")
+            
+        }
+
+        function handlePreviousSlider(){
+            console.log("previous")
+        }
+    </script>
+</body>
+</html>
+
+
